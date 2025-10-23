@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class LecTest {
     public static void main(String[] args) {
-        /*Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter Language:");  //ja, sv, fi, fa
         String lang = sc.nextLine();
@@ -23,6 +23,6 @@ public class LecTest {
         String greetMessage = rb.getString("greet");
         System.out.println(greetMessage + ", " + message + "!");
 
-        System.out.println(myLocale.getDisplayCountry() + " -MAA\n" + myLocale.getDisplayLanguage() + " -KIELI\n" + myLocale.getDisplayName() + "\n");*/
+        System.out.println(myLocale.getDisplayCountry() + " -MAA\n" + myLocale.getDisplayLanguage() + " -KIELI\n" + myLocale.getDisplayName() + "\n");
     }
 }
